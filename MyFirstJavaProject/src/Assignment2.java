@@ -43,8 +43,8 @@ import java.util.Scanner;
 		// we must have a main method to run the program
         public static void main(String[] args) {
 		 
-		 	//Variables
-        	//Create a Scanner object to get input from the keyboard
+		 	//The Variables
+        	//Create a Scanner object to get the input from the keyboard
 		 	String Player1Input = "";
 	        String Player2Input = ""; 
 	        Scanner scan = new Scanner(System.in);
@@ -60,7 +60,7 @@ import java.util.Scanner;
 	        Player2Input = scan.nextLine();
 	        Player2Input = Player2Input.toLowerCase();
 	      
-	        //Display Outcomes
+	        //Display Outcomes of Game
 	        if (Player1Input.equals("rock") && Player2Input.equals("rock")) {
 	        	System.out.println("It's a tie");
 	        } 
