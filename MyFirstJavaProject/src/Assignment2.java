@@ -95,5 +95,5 @@ import java.util.Scanner;
 	        		System.out.println("Wrong choice!");
 	        	}
 	
-	 }//end main method
+	 }//end the main method
 }
