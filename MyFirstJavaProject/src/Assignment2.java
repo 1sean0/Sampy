@@ -44,9 +44,9 @@ import java.util.Scanner;
         public static void main(String[] args) {
 		 
 		 	//Variables
-        	// create a Scanner object to get input from the keyboard
+        	//Create a Scanner object to get input from the keyboard
 		 	String Player1Input = "";
-	        String Player2Input = "";
+	        String Player2Input = ""; 
 	        Scanner scan = new Scanner(System.in);
 	        
 	        //Player1 prompt
